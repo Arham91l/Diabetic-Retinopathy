@@ -8,7 +8,7 @@ from utils.preprocessing import get_transform
 st.set_page_config(page_title="DR Severity Grading", layout="centered")
 
 CLASS_NAMES = ["No DR", "Mild NPDR", "Moderate NPDR", "Severe NPDR", "Proliferative DR"]
-MODEL_PATH = "models/best_model_swin_gan.pt"
+MODEL_PATH = "models/best_model_swin_gan.pkl"
 
 
 @st.cache_resource
